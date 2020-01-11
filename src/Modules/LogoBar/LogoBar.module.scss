@@ -1,0 +1,30 @@
+@import '../../global.scss';
+
+.header {
+  background: $darkBlue;
+  padding: 40px 10px;
+}
+
+.logo {
+  font-size: 3rem;
+  color: $yellow;
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+
+  &Tail {
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  &Link {
+    color: $yellow;
+    text-decoration: none;
+    padding: 5px;
+    transition: color .4s;
+     &:hover {
+       color: $orange;
+       transition: color .4s;
+     }
+  }
+}
+

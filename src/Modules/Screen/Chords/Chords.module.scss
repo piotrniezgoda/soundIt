@@ -1,0 +1,25 @@
+.chordsList {
+  list-style: disc;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10 20px;
+
+  &Element {
+    text-align: left;
+    margin: 5px 0;
+  }
+}
+
+.chord {
+  font-family: 'arcadeClassic', serif;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

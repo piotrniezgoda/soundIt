@@ -1,0 +1,22 @@
+@import '../../../global.scss';
+
+.backtracksListElement {
+  margin: 0px 10px;
+}
+
+.backtracksList {
+  list-style: disc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.songTitle {
+  display: block;
+
+  font-size: 1.4rem;
+  color: #000;
+  text-transform: capitalize;
+  font-family: 'arcadeClassic', serif;
+}
